@@ -49,6 +49,8 @@ extension ViewController {
         return cell
     }
     
+    // Update status of the cell (Incomplete -> Finished)
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
     }
