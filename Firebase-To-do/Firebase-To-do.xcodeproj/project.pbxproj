@@ -17,6 +17,7 @@
 		2A5D319A29D2952F00E908AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A5D319929D2952F00E908AF /* GoogleService-Info.plist */; };
 		2A5D319C29D2988100E908AF /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5D319B29D2988100E908AF /* TodoCell.swift */; };
 		2A5D31A229D29BAE00E908AF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5D31A129D29BAE00E908AF /* Extensions.swift */; };
+		2A5FC8DC2A2EFA2700C3F96D /* CreateToDoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FC8DB2A2EFA2700C3F96D /* CreateToDoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		2A5D319929D2952F00E908AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2A5D319B29D2988100E908AF /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		2A5D31A129D29BAE00E908AF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2A5FC8DB2A2EFA2700C3F96D /* CreateToDoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateToDoController.swift; sourceTree = "<group>"; };
 		2F801E68A35C4682B0908F73 /* Pods_Firebase_To_do.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_To_do.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C28C2ED7422A7F448F1179 /* Pods-Firebase-To-do.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase-To-do.release.xcconfig"; path = "Target Support Files/Pods-Firebase-To-do/Pods-Firebase-To-do.release.xcconfig"; sourceTree = "<group>"; };
 		BDA0FEB0A416841460FCCB08 /* Pods-Firebase-To-do.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase-To-do.debug.xcconfig"; path = "Target Support Files/Pods-Firebase-To-do/Pods-Firebase-To-do.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				2A5D318929D2925600E908AF /* ViewController.swift */,
+				2A5FC8DB2A2EFA2700C3F96D /* CreateToDoController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			files = (
 				2A5D31A229D29BAE00E908AF /* Extensions.swift in Sources */,
 				2A5D318A29D2925600E908AF /* ViewController.swift in Sources */,
+				2A5FC8DC2A2EFA2700C3F96D /* CreateToDoController.swift in Sources */,
 				2A5D318629D2925600E908AF /* AppDelegate.swift in Sources */,
 				2A5D318829D2925600E908AF /* SceneDelegate.swift in Sources */,
 				2A5D319C29D2988100E908AF /* TodoCell.swift in Sources */,
